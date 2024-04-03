@@ -1,4 +1,4 @@
-#
+# ${data.title}
 
 ## Table of Contents
 
@@ -6,31 +6,39 @@
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
+* [Contribution] (#contribution)
+* [Tests](#tests)
 * [License](#license)
-* [Badges](#badges)
 * [Questions](#questions)
 
 ## Description
-
+${data.description}
 
 ## Installation
-
+${data.installation}
 
 ## Usage
+${data.usage}
 
 <p align="center"><img src="" alt=""></p>
 
 
 ## Credits
+* Creator: ${data.name}
+* ${data.credits}
 
+## Contribution
+${data.contribution}
+
+## Tests
+${data.tests}
 
 ## License
-
-
-## Badges
-
+${data.license}
 
 ## Questions
+For more information on this project:
+Visit me on [GitHub](https://github.com/${data.username})
+[E-mail me](mailto:${data.email})
 
-
-### <p align="center">[Back to Top](#)</p>
+### <p align="center">[Back to Top](#${data.title})</p>

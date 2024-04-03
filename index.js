@@ -1,8 +1,11 @@
 //Packages needed for this application:
 const inquirer = require("inquirer");
 const fs = require("fs");
+const util = require("util");
+const generateMarkdown = require("./utils/generateMarkdown.js");
 
-//Array of questions for user input
+
+//Array of questions for user input:
 const questions = [
 
     //Title of project *USER INPUT REQUIRED*
@@ -107,3 +110,25 @@ const questions = [
         }
     },
 ];
+
+
+//Function to initialize app and write README file:
+function init() {
+    return inquirer.createPromptModule(questions)
+        .then((data) => {
+            const markDown = generateMarkdown(data)
+            fs.writeFile("generated-README.md", markDown, function(err) {
+                if (err) {
+                    console.log("Error occured - file not created.", err)
+                } else {
+                    console.log("New README file has been created.")
+                }
+            })
+        })
+        .catch((error) => {
+            console.log(error)
+        })
+    };
+
+    // Function call to initialize app:
+    init();
