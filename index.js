@@ -77,7 +77,7 @@ const questions = [
     {
         type: "input",
         name: "name",
-        message: "Enter your name:",
+        message: "Enter your full name:",
     },
 
     //User's GitHub username *USER INPUT REQUIRED*
