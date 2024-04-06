@@ -62,7 +62,7 @@ const questions = [
     {
     type: "input",
     name: "tests",
-    message: "Enter any information on for tests on this project:",
+    message: "Enter any information on tests for this project:",
     },
 
     //License for project
@@ -70,7 +70,7 @@ const questions = [
         type: "list",
         name: "license",
         message: "Select the license necessary for your project:",
-        choices: ["MIT", "Apache2.0", "GNUGPLv3", "MPL2.0"]
+        choices: ["MIT", "Apache2", "GNUGPLv3", "MPL2"]
     },
 
     //User's name
@@ -114,7 +114,7 @@ const questions = [
 
 //Function to initialize app and write README file:
 function init() {
-    return inquirer.createPromptModule(questions)
+    return inquirer.prompt(questions)
         .then((data) => {
             const markDown = generateMarkdown(data)
             fs.writeFile("generated-README.md", markDown, function(err) {
