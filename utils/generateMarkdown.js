@@ -111,9 +111,7 @@ ${renderLicenseSection(data.license)}
 ## Questions
 For more information on this project:
 * Visit me on [GitHub](https://github.com/${data.username})
-* Send me an [E-mail](mailto:${data.email})
-
-### <p align="center">[Back to Top](#${data.title})</p>`;
+* Send me an [E-mail](mailto:${data.email})`;
 };
   
 module.exports = generateMarkdown;
