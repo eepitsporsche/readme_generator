@@ -1,5 +1,5 @@
-# jhgf
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# Sample Project
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
   
 ## Table of Contents
 * [Description](#description)
@@ -12,37 +12,38 @@
 * [Questions](#questions)
 
 ## Description
-khjg
+descriptive stuff
 
 ## Installation
-
+install it
 
 ## Usage
-
+use it
 
 ## Credits
-* Creator: khjghg
-* 
+* Creator: John Doe
+* people
 
 ## Contribution
-
+do stuff
 
 ## Tests
-
+test stuff
 
 ## License
-<a href="https://opensource.org/licenses/Apache-2.0">Apache 2.0 License</a>
-        
+<a href="https://www.gnu.org/licenses/gpl-3.0">GNU General Public License</a>
+
 Copyright© 2024
 
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+You should have received a copy of the GNU General Public License along with this program.  If not, see [https://www.gnu.org/licenses/](https://www.gnu.org/licenses/).
 
 ## Questions
 For more information on this project:
-* Visit me on [GitHub](https://github.com/oikjhg)
-* Send me an [E-mail](mailto:olkjhg)
+* Visit me on [GitHub](https://github.com/eepitsporsche)
+* Send me an [E-mail](mailto:herskorn@gmail.com)
