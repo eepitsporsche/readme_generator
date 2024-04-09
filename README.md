@@ -37,6 +37,7 @@ After answering the prompts, a README file entitled "generated-README.md" with t
 ## Credits
 * [Egghead.io](https://egghead.io/lessons/javascript-how-to-write-a-javascript-library-adding-badges-to-your-readme) for information on including license badges in a README.md
 * [SitePoint](https://www.sitepoint.com/understanding-module-exports-exports-node-js/) for information on the module.export method
+* [DopeDev YouTube Channel](https://www.youtube.com/watch?v=9YivEQFpmHQ) for walk-through tutorial
 * UCB Bootcamp provided file structure and function framework for this project.
 
 
